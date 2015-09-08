@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78BFA44D3AB94ABDD33BEB12 /* libPods-MyStamp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 640CE27B9BE0AA1BA724D45D /* libPods-MyStamp.a */; };
+		A4B0194DA4B0FCD6D687F4BF /* libPods-MyStampTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 458B152E84062BB6CB634B92 /* libPods-MyStampTests.a */; };
+		DD0100361B9C43B900840101 /* NoteBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0100351B9C43B900840101 /* NoteBook.swift */; };
+		DD0100391B9C4F8000840101 /* seals.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0100381B9C4F8000840101 /* seals.png */; };
+		DD01003B1B9C86CF00840101 /* RLMSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD01003A1B9C86CF00840101 /* RLMSupport.swift */; };
 		DD3C14381B9C2AEC004ED11C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C14371B9C2AEC004ED11C /* AppDelegate.swift */; };
 		DD3C143A1B9C2AEC004ED11C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C14391B9C2AEC004ED11C /* ViewController.swift */; };
 		DD3C143D1B9C2AEC004ED11C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3C143B1B9C2AEC004ED11C /* Main.storyboard */; };
@@ -26,6 +31,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		458B152E84062BB6CB634B92 /* libPods-MyStampTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyStampTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		640CE27B9BE0AA1BA724D45D /* libPods-MyStamp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyStamp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8950B5156D4234D99F6F7A5F /* Pods-MyStampTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyStampTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyStampTests/Pods-MyStampTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95A514C9CC3E0B66D1B6220D /* Pods-MyStamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyStamp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyStamp/Pods-MyStamp.release.xcconfig"; sourceTree = "<group>"; };
+		B3424A800A090100633C2B71 /* Pods-MyStamp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyStamp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyStamp/Pods-MyStamp.debug.xcconfig"; sourceTree = "<group>"; };
+		BF557CB81D0DBEC4EC995409 /* Pods-MyStampTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyStampTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyStampTests/Pods-MyStampTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD0100341B9C2D1E00840101 /* MyStamp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyStamp-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD0100351B9C43B900840101 /* NoteBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteBook.swift; sourceTree = "<group>"; };
+		DD0100381B9C4F8000840101 /* seals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seals.png; sourceTree = "<group>"; };
+		DD01003A1B9C86CF00840101 /* RLMSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLMSupport.swift; sourceTree = "<group>"; };
 		DD3C14321B9C2AEC004ED11C /* MyStamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3C14361B9C2AEC004ED11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD3C14371B9C2AEC004ED11C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BFA44D3AB94ABDD33BEB12 /* libPods-MyStamp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +66,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B0194DA4B0FCD6D687F4BF /* libPods-MyStampTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53762A47B15481726A938A9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3424A800A090100633C2B71 /* Pods-MyStamp.debug.xcconfig */,
+				95A514C9CC3E0B66D1B6220D /* Pods-MyStamp.release.xcconfig */,
+				8950B5156D4234D99F6F7A5F /* Pods-MyStampTests.debug.xcconfig */,
+				BF557CB81D0DBEC4EC995409 /* Pods-MyStampTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7826791C6C60884A68F0549C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				640CE27B9BE0AA1BA724D45D /* libPods-MyStamp.a */,
+				458B152E84062BB6CB634B92 /* libPods-MyStampTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD0100371B9C4F4600840101 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				DD0100381B9C4F8000840101 /* seals.png */,
+			);
+			name = image;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		DD3C14291B9C2AEC004ED11C = {
 			isa = PBXGroup;
 			children = (
 				DD3C14341B9C2AEC004ED11C /* MyStamp */,
 				DD3C144A1B9C2AEC004ED11C /* MyStampTests */,
 				DD3C14331B9C2AEC004ED11C /* Products */,
+				53762A47B15481726A938A9D /* Pods */,
+				7826791C6C60884A68F0549C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +131,10 @@
 				DD3C143E1B9C2AEC004ED11C /* Images.xcassets */,
 				DD3C14401B9C2AEC004ED11C /* LaunchScreen.xib */,
 				DD3C14351B9C2AEC004ED11C /* Supporting Files */,
+				DD0100341B9C2D1E00840101 /* MyStamp-Bridging-Header.h */,
+				DD0100351B9C43B900840101 /* NoteBook.swift */,
+				DD0100371B9C4F4600840101 /* image */,
+				DD01003A1B9C86CF00840101 /* RLMSupport.swift */,
 			);
 			path = MyStamp;
 			sourceTree = "<group>";
@@ -119,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD3C14511B9C2AEC004ED11C /* Build configuration list for PBXNativeTarget "MyStamp" */;
 			buildPhases = (
+				CB53A019C6F2EB1CD762728A /* Check Pods Manifest.lock */,
 				DD3C142E1B9C2AEC004ED11C /* Sources */,
 				DD3C142F1B9C2AEC004ED11C /* Frameworks */,
 				DD3C14301B9C2AEC004ED11C /* Resources */,
+				05FABAEE6408039C235E3946 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD3C14541B9C2AEC004ED11C /* Build configuration list for PBXNativeTarget "MyStampTests" */;
 			buildPhases = (
+				A0CD557496A08C2B67824F55 /* Check Pods Manifest.lock */,
 				DD3C14431B9C2AEC004ED11C /* Sources */,
 				DD3C14441B9C2AEC004ED11C /* Frameworks */,
 				DD3C14451B9C2AEC004ED11C /* Resources */,
+				BBEF960C4A71EDD8235B30F0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD3C143D1B9C2AEC004ED11C /* Main.storyboard in Resources */,
+				DD0100391B9C4F8000840101 /* seals.png in Resources */,
 				DD3C14421B9C2AEC004ED11C /* LaunchScreen.xib in Resources */,
 				DD3C143F1B9C2AEC004ED11C /* Images.xcassets in Resources */,
 			);
@@ -207,6 +264,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05FABAEE6408039C235E3946 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyStamp/Pods-MyStamp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0CD557496A08C2B67824F55 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBEF960C4A71EDD8235B30F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyStampTests/Pods-MyStampTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB53A019C6F2EB1CD762728A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD3C142E1B9C2AEC004ED11C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -214,6 +334,8 @@
 			files = (
 				DD3C143A1B9C2AEC004ED11C /* ViewController.swift in Sources */,
 				DD3C14381B9C2AEC004ED11C /* AppDelegate.swift in Sources */,
+				DD0100361B9C43B900840101 /* NoteBook.swift in Sources */,
+				DD01003B1B9C86CF00840101 /* RLMSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,26 +460,31 @@
 		};
 		DD3C14521B9C2AEC004ED11C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3424A800A090100633C2B71 /* Pods-MyStamp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyStamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyStamp/Mystamp-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		DD3C14531B9C2AEC004ED11C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A514C9CC3E0B66D1B6220D /* Pods-MyStamp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyStamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyStamp/Mystamp-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		DD3C14551B9C2AEC004ED11C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8950B5156D4234D99F6F7A5F /* Pods-MyStampTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -377,6 +504,7 @@
 		};
 		DD3C14561B9C2AEC004ED11C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF557CB81D0DBEC4EC995409 /* Pods-MyStampTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -409,6 +537,7 @@
 				DD3C14531B9C2AEC004ED11C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD3C14541B9C2AEC004ED11C /* Build configuration list for PBXNativeTarget "MyStampTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +546,7 @@
 				DD3C14561B9C2AEC004ED11C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
